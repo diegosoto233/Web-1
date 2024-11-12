@@ -1,0 +1,201 @@
+header{ /*Edita la cabezera del programa*/
+    background: #e61919;
+    margin: -8px 0px 0px -8px;
+    width: 1528px;
+    height: 75px;
+}
+
+#logo{
+    margin: 0px 0px 0px 35px;   /*Ajusta los margenes para acomodar el logo*/
+}
+
+a{ /*Edita los hipervinculos de la cabeza del programa*/
+    background: #e61919;
+    position: relative;
+    font-family: Georgia;
+    text-decoration: none;
+    color: white;
+    margin: 80px;
+    bottom: 30px;
+    left: 200px;
+}
+
+.titulo{ /*Acomoda el primer título de Restaurante*/
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    margin: 25px 0px -25px 50px;
+}
+
+.imagen1 { /*Edita el conjunto de la imagen 1*/
+    background: white;
+    margin: 50px 0px 0px 50px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    
+}
+
+.img1 { /*Edición de la imagen 1*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.imagen2 { /*Edita el conjunto de la imagen 2*/
+    background: white;
+    margin: -411px 0px 0px 550px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    
+}
+
+.img2 { /*Edición de la imagen 2*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.imagen3 { /*Edita el conjunto de la imagen 3*/
+    background: white;
+    margin: -411px 0px 0px 1050px ;
+    width: 400px;
+    height: 500px;
+    border-radius: 0%;
+    
+}
+
+.img3 { /*Edición de la imagen 3*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 500px;
+    border-radius: 1%;
+}
+
+.imagen4 { /*Edita el conjunto de la imagen 4*/
+    background: white;
+    margin: -150px 0px 0px 100px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    
+}
+
+.img4 { /*Edición de la imagen 4*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.imagen5 { /*Edita el conjunto de la imagen 5*/
+    background: white;
+    margin: -411px 0px 0px 550px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    
+}
+
+.img5 { /*Edición de la imagen 5*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.titulo2{ /*Acomoda el segundo titulo de Eventos*/
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    margin: -50px 0px -25px 50px;
+}
+
+.evento { /*Edita el conjunto de evento*/
+    background: white;
+    margin: 50px 0px 0px 150px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    
+}
+
+.ev { /*Edición de la imagen de evento*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 500px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.evento1 { /*Edita el conjunto de evento 1*/
+    background: white;
+    margin: -411px 0px 0px 750px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    
+}
+
+.ev1 { /*Edición de la imagen del evento 1*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 500px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.evento2 { /*Edita el conjunto del evento 2*/
+    background: white;
+    margin: -80px 0px 0px 150px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    
+}
+
+.ev2 { /*Edición de la imagen del evento 2*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 500px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.evento3 { /*Edita el conjunto del evento 3*/
+    background: white;
+    margin: -411px 0px 0px 750px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    
+}
+
+.ev3 { /*Edición de la imagen del evento 3*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 500px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+footer{ /*Se edita el pie de página*/
+    background: grey;
+    margin: 0px 0px 0px -8px;
+    width: 1528px;
+    height: 100px;
+    
+}
+
+.pie{ /*Se edita el texto que hay en el pie de página*/
+    background: grey;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    color: lightgrey;
+}

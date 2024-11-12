@@ -1,0 +1,84 @@
+header{
+    background: #e61919; /*Cambia el fondo del encabezado*/
+    margin: -8px 0px 0px -8px;/*Acomoda los margenes para que abarque toda la página*/
+    width: 1528px; /*Ajusta el tamaño Horizontal*/
+    height: 75px; /*Ajusta el tamaño de la altura*/
+}
+
+.logo{
+    margin: 0px 0px 0px 35px;   /*Ajusta los margenes para acomodar el logo*/
+}
+
+a{
+    background: #e61919; /*Cambia el fondo de los hipervinculos*/
+    position: relative; /*Ajusta la posicion*/
+    font-family: Georgia; /*Cambia la fuente del texto*/
+    text-decoration: none; /*Quita la línea de abajo del hipervinculo*/
+    color: white; /*Cambia el color del texto del hipervinculo*/
+    margin: 80px; /*Ajusta el margen entre los hipervinculos*/
+    bottom: 30px;/*Ajusta el espacio que va a tener desde abajo*/
+    left: 200px; /*Ajusta el espacio que va a tener del lado izquierdo*/
+}
+
+a:hover{
+    color: yellow; /*Hace que cambie el color al pasar el mouse por el texto*/
+}
+
+body{
+    background: white; /*Pone el color balnco el cuerpo de la página*/
+}
+
+.titulo{
+    text-align: center; /*Centra el Título*/
+    text-transform: uppercase; /*Pone en mayusculas el texto*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /*Pone una ligera sobra al título*/
+    border-top: 0.5px solid #333;   /*Pone una linea de división arriba*/
+    border-bottom: 0.5px solid #333; /*Pone una linea de división abajo*/
+    margin: 40px 0; /*Cambia el margen de arriba del título*/
+    padding: 15px; /*Espacio entre el texto y las líneas*/
+}
+
+#imgTacos {
+    position:absolute; /*Define la posicíon absoluta de la imágen*/
+    margin: 100px 0px 0px 15px; /*Acomoda la imagen con margenes*/
+    width: 315px;   /*Define el tamaño de la imagen*/
+    border-radius: 10%; /*Redondea las esquina de la imágen*/
+}
+
+#imgTacos2 {
+    position:absolute; /*Define la posicíon absoluta de la imágen*/
+    margin: 100px 0px 0px 1160px; /*Acomoda la imagen con margenes*/
+    width: 315px; /*Define el tamaño de la imagen*/
+    border-radius: 10%; /*Redondea las esquina de la imágen*/
+}
+
+p {
+    background-color: #f0f0f0; /* Fondo gris claro para el párrafo */
+    text-align: center; /*Que el texto se justifique al centro*/
+    margin: 50px 370px 0px 350px; /*Los marguenes para centrar el cuadro de texto*/
+    padding: 30px; /*Separación entre el texto y el cuadro de texto*/
+    line-height: 2; /* Aumenta el espacio entre líneas para mejorar la legibilidad */
+}
+
+.despedida{
+    background: #e61919; /*Cambia el fondo*/
+    text-align: center;/*alinea el texto al centro*/
+    color: white; /*Modifica el color del texto*/
+    width: 1498px; /*Modifica lo largo*/
+    height: 25px; /*Modifica el alto*/
+    margin: 40px 0px 0px -8px;/*Cambia el margen de arriba del título*/
+    padding: 15px; /*Espacio entre el texto y las líneas*/
+}
+
+footer{
+    background: grey; /*Cambia el color del fondo del pie de página*/
+    margin: 0px 0px 0px -8px;/*Acomoda los margenes para que abarque toda la página*/
+    width: 1528px; /*Ajusta el tamaño Horizontal*/
+    
+}
+
+.pie{
+    background: grey; /*Cambia el color del fondo de texto*/
+    margin: 0px 0px 0px 0px;/*Acomoda el texto en el pie de página*/
+    color: lightgrey; /*Modifica el color del texto*/
+}

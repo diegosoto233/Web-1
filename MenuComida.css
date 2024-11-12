@@ -1,0 +1,482 @@
+header{ /*Edita la cabezera del programa*/
+    background: #e61919;
+    margin: -8px 0px 0px -8px;
+    width: 1528px;
+    height: 75px;
+}
+
+#logo{
+    margin: 0px 0px 0px 35px;   /*Ajusta los margenes para acomodar el logo*/
+}
+
+a{ /*Edita los hipervinculos de la cabeza del programa*/
+    background: #e61919;
+    position: relative;
+    font-family: Georgia;
+    text-decoration: none;
+    color: white;
+    margin: 80px;
+    bottom: 30px;
+    left: 200px;
+}
+
+.titulo{ /*Acomoda el primer título de Comida*/
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    margin: 25px 0px -25px 50px;
+}
+
+.Pastor { /*Edita el conjunto del producto Pastor*/
+    background: white;
+    margin: 50px 0px 0px 50px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgPastor { /*Edición de la imagen del producto Pastor*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloPastor{ /*Edición del título de prodcuto Pastor*/
+    background: #e39401;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textPastor{ /*Edita el texto de descripción del producto Pastor */
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.Suadero { /*Edita el conjunto del producto Suadero*/
+    background: white;
+    margin: -411px 0px 0px 550px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgSuadero { /*Edición de la imagen del producto Suadero*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloSuadero { /*Edición del título de prodcuto Suadero*/
+    background: #ff5350;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textSuadero{ /*Edita el texto de descripción del producto Suadero */
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.Bistec { /*Edita el conjunto del producto Bistec*/
+    background: white;
+    margin: -411px 0px 0px 1050px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgBistec { /*Edición de la imagen del producto Bistec*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloBistec { /*Edición del título de prodcuto Bistec*/
+    background: orange;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textBistec{ /*Edita el texto de descripción del producto Bistec*/
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.Lengua { /*Edita el conjunto del producto Lengua*/
+    background: white;
+    margin: 50px 0px 0px 50px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgLengua { /*Edición de la imagen del producto Lenguar*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloLengua { /*Edición del título de prodcuto Lengua*/
+    background: #ff5350;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textLengua{ /*Edita el texto de descripción del producto Lengua*/
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.Tripa { /*Edita el conjunto del producto Tripa*/
+    background: white;
+    margin: -411px 0px 0px 550px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgTripa { /*Edición de la imagen del producto Tripa*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloTripa { /*Edición del título de prodcuto Tripa*/
+    background: orange;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textTripa{ /*Edita el texto de descripción del producto Tripa */
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.titulo2 { /*Acomoda el segundo Título de Bebidas*/
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 25px 0px -25px 50px;
+}
+
+.JamHorch { /*Edita el conjunto del producto Jamaica y Horchata*/
+    background: white;
+    margin: 50px 0px 0px 50px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgJamHorch { /*Edición de la imagen del producto Jamaica y Horchata*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloJamHorch { /*Edición del título de prodcuto Jamaica y Horchata*/
+    background: #ff5350;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textJamHorch{ /*Edita el texto de descripción del producto Jamaica y Horchata*/
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.Refr { /*Edita el conjunto del producto Refrescos*/
+    background: white;
+    margin: -411px 0px 0px 550px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgRefr { /*Edición de la imagen del producto Refrescos*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloRefr { /*Edición del título de prodcuto Refrescos*/
+    background: orange;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textRefr{ /*Edita el texto de descripción del producto Refrescos*/
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.titulo3 { /*Acomoda el tercer título de Postres*/
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 25px 0px -25px 50px;
+}
+
+.Flan { /*Edita el conjunto del producto Flan*/
+    background: white;
+    margin: 50px 0px 0px 50px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgFlan { /*Edición de la imagen del producto Flan*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloFlan { /*Edición del título de prodcuto Flan*/
+    background: #ff5350;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textFlan{ /*Edita el texto de descripción del producto Flan*/
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.ArrLech { /*Edita el conjunto del producto Arroz con leche*/
+    background: white;
+    margin: -411px 0px 0px 550px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgArrLech { /*Edición de la imagen del producto Arroz con leche*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloArrLech { /*Edición del título de prodcuto Arroz con leche*/
+    background: orange;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textArrLech{ /*Edita el texto de descripción del producto Arroz con leche */
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.Gela { /*Edita el conjunto del producto Gelatina*/
+    background: white;
+    margin: -411px 0px 0px 1050px ;
+    width: 400px;
+    height: 410px;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+    
+}
+
+.imgGela { /*Edición de la imagen del producto Gelatina*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 1%;
+}
+
+.tituloGela { /*Edición del título de prodcuto Gelatina*/
+    background: #ff5350;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textGela { /*Edita el texto de descripción del producto Gelatina*/
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.titulo4 { /*Define el Título de Paquetes*/
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 25px 0px -25px 50px;
+}
+
+.Paq1 { /*Edita el conjunto del producto Paquete 1*/
+    background: white;
+    margin: 50px 0px 0px 50px ;
+    width: 400px;
+    height: 100px;
+}
+
+.tituloPaq1 { /*Edición del título de prodcuto Paquete 1*/
+    background: orange;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textPaq1{ /*Edita el texto de descripción del producto Paquete 1 */
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.Paq2 { /*Edita el conjunto del producto Paquete 2*/
+    background: white;
+    margin: -100px 0px 0px 550px ;
+    width: 400px;
+    height: 100px;
+}
+
+.tituloPaq2 { /*Edición del título de prodcuto Paquete 2*/
+    background: #ff5350;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textPaq2{ /*Edita el texto de descripción del producto Paquete 2*/
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+.Paq3 { /*Edita el conjunto del producto Paquete 3*/
+    background: white;
+    margin: -100px 0px 0px 1050px ;
+    width: 400px;
+    height: 100px;
+}
+
+.tituloPaq3 { /*Edición del título de prodcuto Paquete 3*/
+    background: orange;
+    margin: -5px 0px 0px 0px;
+    width: 400px;
+    border-radius: -20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.textPaq3{ /*Edita el texto de descripción del producto Paquete 3*/
+    margin: 15px;
+    text-align: center; 
+    line-height: 2;
+}
+
+footer{ /*Se edita el pie de página*/
+    background: grey;
+    margin: 0px 0px 0px -8px;
+    width: 1528px;
+    height: 100px;
+    
+}
+
+.pie{ /*Se edita el texto que hay en el pie de página*/
+    background: grey;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    color: lightgrey;
+}
